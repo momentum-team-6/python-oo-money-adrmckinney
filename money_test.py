@@ -87,3 +87,4 @@ def test_mul_money():
 def test_div_money():
     assert Money(3, USD).div(3) == Money(1, USD)
     assert Money(12, USD).div(4) == Money(3, USD)
+
